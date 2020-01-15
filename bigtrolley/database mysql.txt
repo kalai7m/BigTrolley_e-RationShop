@@ -1,0 +1,50 @@
+=>> database name : bigt
+
+=>> table : aadhar
+==+== FIELDS==+==================================
+
+create table aadhar(aadharno int(10) primary key not null,fn char(30) not null,ln char(30),age int(5) not null,dob date not null,flag char(2) not null,pin int(10) not null)
+
+AADHAR:
+````````````````
+insert into aadhar values('448445352344','Kalaivani','M',20,'30-07-1999','n','625107');
+
+
+=====================================================================================================
+=>>table : signup
+
+
+create table signup(username varchar(25),password varchar(20));
+
+SIGNUP:
+``````````````
+
+insert into signup(rationno) values('11111');
+
+=======================================================================================================
+=>>TABLE: RATION
+create table ration(ration int(10) primary key, aadharno bigint(20));
+
+ alter table ration add foreign key(aadharno) references aadhar(aadharno);
+
+insert into ration values('11111','448445352344');
+insert into ration values('11112','448445352345');
+insert into ration values('11113','448445352346');
+
+========================================================================
+alter table aadhar rename aadharno to oldname to newcolname;
+
+========================================================
+ADD COL:
+````````````````
+alter table aadhar add ration(int(5));
+=======================================================
+ update aadhar set ration='11111' where aadharno='448445352344';
+ update aadhar set ration='11112' where aadharno='448445352345';
+ update aadhar set ration='11113' where aadharno='448445352346';
+
+<?php
+    if(!isset($_COOKIE['loggedin'])){
+        header("location:signup.php");
+    }
+?>

@@ -1,0 +1,68 @@
+animate.css
+`````````````````
+https://daneden.github.io/animate.css/
+================================
+jquery
+`````````
+https://jquery.com/download/
+================================
+Google Fonts
+================================
+wow.js
+```````````
+https://github.com/matthieua/WOW
+================================
+ -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+
+
+ <section class="famie-benefits-area pb-5 ml-5">
+        
+    
+          <div class="row justify-content-center">
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+                <img src="/image/core-img/digger.png" alt="">
+                <h5>Best Services</h5>
+              </div>
+            </div>
+    
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="300ms">
+                <img src="/image/core-img/windmill.png" alt="">
+                <h5>Farm Experiences</h5>
+              </div>
+            </div>
+    
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="500ms">
+                <img src="/image/core-img/cereal.png" alt="">
+                <h5>100% Natural</h5>
+              </div>
+            </div>
+    
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="700ms">
+                <img src="/image/core-img/tractor.png" alt="">
+                <h5>Farm Equipment</h5>
+              </div>
+            </div>
+    
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="900ms">
+                <img src="/image/core-img/sunrise.png" alt="">
+                <h5>Organic food</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
